@@ -2,7 +2,7 @@ import pandas as pd
 
 from databases.models.weatherdata import WeatherData
 from databases.models.customer import Customer
-from database import session
+from core.database import session
 
 def load_customers_to_db(filepath, session):
     data = pd.read_csv(filepath)
