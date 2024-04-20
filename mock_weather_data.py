@@ -19,7 +19,7 @@ fake = Faker()
 
 
 # Load the existing data
-df = pd.read_csv('resources/kaggle_weather.csv')
+df = pd.read_csv('resources/weather.csv')
 
 # Generate additional data
 num_entries = len(df)  # matching the number of new rows to the existing ones
