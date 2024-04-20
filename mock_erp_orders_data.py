@@ -43,6 +43,8 @@ erp_orders_df = pd.DataFrame({
 })
 
 # Save the DataFrame to a CSV file
-erp_orders_df.to_csv('erp_orders.csv', index=False)
+erp_orders_df.to_csv('resources/data/fake_erp_orders.csv', index=False)
 
-print("ERP orders data has been saved to 'erp_orders.csv'.")
+print(erp_orders_df.head())
+
+print("ERP orders data has been saved to 'resources/data/fake_erp_orders.csv'.")

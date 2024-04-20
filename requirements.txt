@@ -1,3 +1,6 @@
 Faker
-panda
+pandas
 streamlit
+sqlalchemy
+pymysql
+python-dotenv

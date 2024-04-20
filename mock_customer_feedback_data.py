@@ -17,7 +17,7 @@ import numpy as np
 fake = Faker()
 
 # Load the existing orders to get valid order_ids (assuming 'erp_orders.csv' is in the current directory)
-orders_df = pd.read_csv('erp_orders.csv')
+orders_df = pd.read_csv('resources/data/fake_erp_orders.csv')
 order_ids = orders_df['order_id'].tolist()
 
 # Define the number of feedback entries
@@ -38,6 +38,8 @@ customer_feedback_df = pd.DataFrame({
 })
 
 # Save the DataFrame to a CSV file
-customer_feedback_df.to_csv('customer_feedback.csv', index=False)
+customer_feedback_df.to_csv('resources/data/fake_customer_feedback.csv', index=False)
 
-print("Customer feedback data has been saved to 'customer_feedback.csv'.")
+print(customer_feedback_df.head())
+
+print("Customer feedback data has been saved to 'resources/data/fake_customer_feedback.csv'.")

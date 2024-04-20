@@ -19,7 +19,7 @@ fake = Faker()
 
 
 # Load the existing data
-df = pd.read_csv('resources/weather.csv')
+df = pd.read_csv('resources/data/weather.csv')
 
 # Generate additional data
 num_entries = len(df)  # matching the number of new rows to the existing ones
@@ -41,8 +41,8 @@ additional_data = pd.DataFrame({
 expanded_df = pd.concat([additional_data, df], axis=1)
 
 # Save the expanded DataFrame to a new CSV file
-expanded_df.to_csv('external_weather_data.csv', index=False)
+expanded_df.to_csv('resources/data/fake_weather_data.csv', index=False)
 
 print(expanded_df.head())
 
-print("Expanded data has been saved to 'expanded_weather.csv'.")
+print("Expanded data has been saved to 'resources/data/fake_weather_data.csv'.")
