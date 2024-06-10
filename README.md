@@ -4,6 +4,13 @@
 ![](assets/SujetComposantsHadoopv0_page-0002.jpg)
 
 
+# Powerbi Dashboard
+![](Projet Hadoop Big Data V2_page-0001.jpg)
+
+
+# Mentions
+
+- [Anne-Josée Louis](https://www.linkedin.com/in/anne-josee-louis/) Merci pour la creation du dashboard , 
 
 # Soutien
 
