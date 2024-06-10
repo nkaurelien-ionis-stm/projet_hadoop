@@ -5,7 +5,7 @@
 
 
 # Powerbi Dashboard
-![](Projet Hadoop Big Data V2_page-0001.jpg)
+![](assets/ProjetHadoopBigDataV2_page-0001.jpg)
 
 
 # Mentions
